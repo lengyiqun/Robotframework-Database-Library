@@ -17,6 +17,9 @@ class Assertion(object):
     Assertion handles all the assertions of Database Library.
     """
 
+    def test(self):
+        pass
+
     def check_if_exists_in_database(self,selectStatement):
         """
         Check if any row would be returned by given the input 
